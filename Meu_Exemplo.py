@@ -97,7 +97,7 @@ def update_map(all_rows_data, slctd_row_indices):
                       figure=px.choropleth(
                           data_frame=dff,
                           locations="Country/Region",
-                          scope="europe",
+                          scope="usa",
                           color="TotalCases",
                           title="Número de Casos Confirmados por País",
                           template='plotly_dark',
